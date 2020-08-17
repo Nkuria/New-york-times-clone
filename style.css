@@ -64,18 +64,18 @@ button:hover{
     cursor: pointer;
 }
 
-.article-container{
+.article-header{
   display: flex;
   flex-direction: column;
   padding-top: 100px;
   align-items: center;
   width: 100%;
+  float: left;
 }
 
 #article-image img{
   width: 100%;
   max-width: 1100px;
-
 }
 
 #article-image {
@@ -121,10 +121,48 @@ button:hover{
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
-   
+
  }
  .grid1-right a {
    text-decoration: none;
    color:grey;
 
  }
+
+.article-container{
+  width:100%;
+}
+
+.article {
+  padding: 20px 40px 20px 40px;
+  max-width: 550px;
+  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  color: grey;
+  line-height: 2rem;
+  float: left;
+  width: 70%;
+text-align: center;
+padding-left: 20%;
+}
+
+.aside {
+  border-bottom: 2px;
+  border-color: grey;
+  float: right;
+  width:30%;
+  text-align: center;
+  margin-right: 5%;
+
+}
+
+.aside1 {
+  max-width: 90px;
+  height: auto;
+  float: none;
+}
+
+.aside1-title {
+  float: right;
+}
