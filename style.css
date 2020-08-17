@@ -3,16 +3,30 @@
     padding: 0;
 }
 
+body {
+  background-color: #F7F7F7;
+}
+
 .nav-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; 
-    margin-top: 10px;
-    margin-right: 20px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     height: 40px;
-
+    max-height: 40px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
 }
+
+.icons {
+  white-space: nowrap;
+  padding-right: 20px;
+}
+
 .icons i{
     margin-right: 30px;
 }
@@ -33,6 +47,12 @@
     border-radius: 3px;
     color: white;
 }
+
+.nav-btn {
+  white-space: nowrap;
+  padding-left: 20px;
+}
+
 .subscribe {
     width: 120px;
 }
@@ -43,4 +63,3 @@
 button:hover{
     cursor: pointer;
 }
- 
