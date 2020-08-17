@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 40px;
+
+}
+.icons i{
+    margin-right: 30px;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.icon1{
+    margin-left: 20px;
+}
+.icons i:hover {
+    cursor: pointer;
+}
+.nav-btn button{
+    background-color: #326891;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.subscribe {
+    width: 120px;
+}
+.log-in {
+    width: 70px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+ 
