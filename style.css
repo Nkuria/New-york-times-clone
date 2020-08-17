@@ -69,17 +69,19 @@ button:hover{
   flex-direction: column;
   padding-top: 100px;
   align-items: center;
-  width: 100%
+  width: 100%;
 }
 
 #article-image img{
-  width: 700px;
+  width: 100%;
+  max-width: 1100px;
 
 }
 
 #article-image {
   margin-left: 25%;
   margin-right: 25%;
+  width: 80%;
 }
 
 #article-image h4{
@@ -99,3 +101,30 @@ button:hover{
   max-width: 450px;
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
+ .description {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 250px;
+     margin-top: 50px;
+ }
+ .grid1-left{
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     justify-content: left;
+     width: 200px;
+ }
+ .grid1-par{
+   margin-bottom: 20px;
+ }
+ .grid1-right{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   
+ }
+ .grid1-right a {
+   text-decoration: none;
+   color:grey;
+
+ }
