@@ -63,3 +63,39 @@ body {
 button:hover{
     cursor: pointer;
 }
+
+.article-container{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+  width: 100%
+}
+
+#article-image img{
+  width: 700px;
+
+}
+
+#article-image {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#article-image h4{
+  font-weight: lighter;
+  color: grey;
+}
+
+#article-image h6{
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+
+
+#article-title {
+  padding-bottom: 40px;
+  max-width: 450px;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+}
