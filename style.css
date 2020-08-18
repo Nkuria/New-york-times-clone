@@ -147,14 +147,14 @@ text-align: center;
 padding-left: 20%;
 }
 
-.aside {
-  border-bottom: 2px;
-  border-color: grey;
-  float: right;
+.editor {
   width:30%;
   text-align: center;
   margin-right: 5%;
-
+  margin-left: 50px;
+  float: right;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50%;
 }
 
 .aside1 {
@@ -165,4 +165,20 @@ padding-left: 20%;
 
 .aside1-title {
   float: right;
+  max-width: 200px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.aside {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  float: right;
+  right: auto;
+  padding-bottom: 30px;
+}
+
+ .aside a {
+  text-decoration: none;
+  color: black;
 }
