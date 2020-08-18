@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #F7F7F7;
+  background-color: white;
 }
 
 .nav-bar {
@@ -20,6 +20,9 @@ body {
     background-color: white;
     position: fixed;
     width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3px;
+    border-bottom-color: grey;
 }
 
 .icons {
@@ -182,6 +185,24 @@ padding-left: 20%;
   text-decoration: none;
   color: black;
 }
-.hr{
-  padding:20px;
+.hr-1{
+  font-size: 15px;
+  border-top-style: solid;
+  border-top-color: grey;
+  border-top-width: 2px;
+  width: 250px;
+  margin-left: 30%;
+  border-bottom-style: solid;
+  border-bottom-color: grey;
+  border-bottom-width: 2px;
+  
+}
+.hr-1 a {
+  text-decoration: none;
+}
+.as-big{
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
 }
