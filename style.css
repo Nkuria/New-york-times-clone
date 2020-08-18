@@ -142,11 +142,11 @@ button:hover{
   font-size: 1.25rem;
   font-family: 'Poppins', sans-serif;
   font-weight: lighter;
-  color: grey;
+  color: black;
   line-height: 2rem;
   float: left;
   width: 70%;
-text-align: center;
+text-align: left;
 padding-left: 20%;
 }
 
@@ -195,7 +195,7 @@ padding-left: 20%;
   border-bottom-style: solid;
   border-bottom-color: grey;
   border-bottom-width: 2px;
-  
+
 }
 .hr-1 a {
   text-decoration: none;
@@ -205,4 +205,70 @@ padding-left: 20%;
   font-weight: bold;
   color: black;
   font-size: 20px;
+}
+
+#theory {
+  max-width: 1000px;
+  height: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.video-title {
+  font-size: 13px;
+ text-align: left;
+ color: black;
+ height: 20px;
+ min-width: 700px;
+ margin-top: -5px;
+}
+
+.captions {
+  padding-bottom: 70px;
+  font-size: 13px;
+ text-align: left;
+ color: black;
+ height: 20px;
+ min-width: 700px;
+}
+
+.video-channel {
+  font-size: 9px;
+  color: grey;
+  font-weight: lighter;
+  text-align: left;
+  height: 15px;
+  padding-bottom: 50px;
+}
+
+#telescope {
+  max-width: 700px;
+  height: auto;
+}
+
+#article-info {
+  font-size: 13px;
+  color: grey;
+  min-width: 800px;
+}
+.comments {
+  background-color: #326891;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin-top: 30px;
+  width: 180px;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.comments-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
