@@ -154,13 +154,13 @@ padding-left: 20%;
   margin-left: 50px;
   float: right;
   font-family: 'Poppins', sans-serif;
-  margin-top: 50%;
+  margin-top: 300px;
 }
 
 .aside1 {
   max-width: 90px;
   height: auto;
-  float: none;
+  float: right;
 }
 
 .aside1-title {
@@ -181,4 +181,7 @@ padding-left: 20%;
  .aside a {
   text-decoration: none;
   color: black;
+}
+.hr{
+  padding:20px;
 }
