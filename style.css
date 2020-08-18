@@ -258,7 +258,7 @@ padding-left: 20%;
   border-radius: 3px;
   color: white;
   margin-top: 30px;
-  width: 180px;
+  width: 300px;
 }
 
 .comments-container {
@@ -271,4 +271,21 @@ padding-left: 20%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  width:150px;
+}
+.comments-icons i{
+  color: grey;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  clear: both;
+}
+.grid2-left{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: red;
+
 }
