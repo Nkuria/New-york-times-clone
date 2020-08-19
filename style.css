@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,21 +8,21 @@ body {
 }
 
 .nav-bar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    height: 40px;
-    max-height: 40px;
-    background-color: white;
-    position: fixed;
-    width: 100%;
-    border-bottom-style: solid;
-    border-bottom-width: 0.3px;
-    border-bottom-color: grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  height: 40px;
+  max-height: 40px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 0.3px;
+  border-bottom-color: grey;
 }
 
 .icons {
@@ -31,24 +31,24 @@ body {
 }
 
 .icons i {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 .icons a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 .icon1 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .icons i:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .nav-btn button{
-    background-color: #326891;
-    height: 35px;
-    border: none;
-    border-radius: 3px;
-    color: white;
+  background-color: #326891;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  color: white;
 }
 
 .nav-btn {
@@ -57,14 +57,14 @@ body {
 }
 
 .subscribe {
-    width: 120px;
+  width: 120px;
 }
 .log-in {
-    width: 70px;
+  width: 70px;
 
 }
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .article-header {
@@ -104,33 +104,33 @@ button:hover {
   max-width: 450px;
   font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
- .description {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-gap: 250px;
-     margin-top: 50px;
- }
- .grid1-left {
-     display: flex;
-     flex-direction: column;
-     align-items: left;
-     justify-content: left;
-     width: 200px;
- }
- .grid1-par {
-   margin-bottom: 20px;
- }
- .grid1-right {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-end;
+.description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 250px;
+  margin-top: 50px;
+}
+.grid1-left {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  width: 200px;
+}
+.grid1-par {
+  margin-bottom: 20px;
+}
+.grid1-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 
- }
- .grid1-right a {
-   text-decoration: none;
-   color:grey;
+}
+.grid1-right a {
+  text-decoration: none;
+  color:grey;
 
- }
+}
 
 .article-container {
   width:100%;
@@ -182,7 +182,7 @@ button:hover {
   margin-left: 120px;
 }
 
- .aside a {
+.aside a {
   text-decoration: none;
   color: black;
 }
@@ -217,20 +217,20 @@ button:hover {
 
 .video-title {
   font-size: 13px;
- text-align: left;
- color: black;
- height: 20px;
- min-width: 700px;
- margin-top: -5px;
+  text-align: left;
+  color: black;
+  height: 20px;
+  min-width: 700px;
+  margin-top: -5px;
 }
 
 .captions {
   padding-bottom: 70px;
   font-size: 13px;
- text-align: left;
- color: black;
- height: 20px;
- min-width: 700px;
+  text-align: left;
+  color: black;
+  height: 20px;
+  min-width: 700px;
 }
 
 .video-channel {
