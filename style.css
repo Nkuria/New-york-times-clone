@@ -7,7 +7,7 @@ body {
   background-color: white;
 }
 
-/*Navigation Bar*/
+/* Navigation Bar */
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -77,6 +77,45 @@ button:hover {
   cursor: pointer;
 }
 
+/* Aside */
+.editor {
+  width: 10%;
+  text-align: center;
+  margin-right: 5%;
+  margin-left: 50px;
+  float: right;
+  font-family: "Poppins", sans-serif;
+  margin-top: 25%;
+}
+
+.aside1 {
+  max-width: 90px;
+  height: auto;
+  float: right;
+  padding-right: 70px;
+}
+
+.aside1-title {
+  float: right;
+  max-width: 200px;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.aside {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  float: right;
+  padding-bottom: 30px;
+  margin-left: 120px;
+}
+
+.aside a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main Article */
 .article-header {
   display: flex;
   flex-direction: column;
@@ -164,43 +203,6 @@ button:hover {
   width: 70%;
   text-align: left;
   padding-left: 20%;
-}
-
-.editor {
-  width: 10%;
-  text-align: center;
-  margin-right: 5%;
-  margin-left: 50px;
-  float: right;
-  font-family: "Poppins", sans-serif;
-  margin-top: 25%;
-}
-
-.aside1 {
-  max-width: 90px;
-  height: auto;
-  float: right;
-  padding-right: 70px;
-}
-
-.aside1-title {
-  float: right;
-  max-width: 200px;
-  padding-left: 40px;
-  text-align: left;
-}
-
-.aside {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  float: right;
-  padding-bottom: 30px;
-  margin-left: 120px;
-}
-
-.aside a {
-  text-decoration: none;
-  color: black;
 }
 
 .hr-1 {
@@ -293,6 +295,7 @@ button:hover {
   width: 150px;
 }
 
+/* Suggested Articles */
 .gallery {
   display: grid;
   grid-template-columns: 70% 30%;
@@ -346,6 +349,7 @@ button:hover {
   font-family: "Poppins", sans-serif;
 }
 
+/* Footer */
 .footer {
   margin-top: 130px;
   border-top-style: solid;
