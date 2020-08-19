@@ -33,16 +33,24 @@ body {
 .icons i {
   margin-right: 30px;
 }
+
 .icons a {
   text-decoration: none;
   color: black;
 }
+
 .icon1 {
   margin-left: 20px;
 }
+
+.comments-icons i {
+  color: grey;
+}
+
 .icons i:hover {
   cursor: pointer;
 }
+
 .nav-btn button {
   background-color: #326891;
   height: 35px;
@@ -75,6 +83,11 @@ button:hover {
   align-items: center;
   width: 100%;
   float: left;
+}
+
+.cell-1 img {
+  height: auto;
+  width: 100%;
 }
 
 #article-image img {
@@ -114,7 +127,7 @@ button:hover {
 .grid1-left {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   justify-content: left;
   width: 200px;
 }
@@ -188,6 +201,7 @@ button:hover {
   text-decoration: none;
   color: black;
 }
+
 .hr-1 {
   font-size: 15px;
   border-top-style: solid;
@@ -278,10 +292,6 @@ button:hover {
   width: 150px;
 }
 
-.comments-icons i {
-  color: grey;
-}
-
 .gallery {
   display: grid;
   grid-template-columns: 70% 30%;
@@ -305,11 +315,6 @@ button:hover {
   grid-row: 1;
   grid-column: 1/4;
   font-weight: bolder;
-}
-
-.cell-1 img {
-  height: auto;
-  width: 100%;
 }
 
 .img-description {
