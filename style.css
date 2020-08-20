@@ -126,6 +126,10 @@ button:hover {
   float: left;
 }
 
+.article-title h1 {
+  font-style: italic;
+}
+
 .cell-1 img {
   height: auto;
   width: 100%;
@@ -134,11 +138,11 @@ button:hover {
 #article-image img {
   width: 100%;
   max-width: 1100px;
+  text-align: center;
 }
 
 #article-image {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: auto;
   width: 80%;
 }
 
@@ -196,14 +200,14 @@ button:hover {
   padding: 20px 40px 20px 40px;
   max-width: 550px;
   font-size: 1.25rem;
-  font-family: "Poppins", sans-serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-weight: lighter;
   color: black;
   line-height: 2rem;
   float: left;
   width: 70%;
   text-align: left;
-  padding-left: 20%;
+  padding-left: 30%;
 }
 
 .hr-1 {
@@ -216,6 +220,9 @@ button:hover {
   border-bottom-style: solid;
   border-bottom-color: grey;
   border-bottom-width: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .hr-1 a {
@@ -441,4 +448,18 @@ button:hover {
 .footer-end a {
   text-decoration: none;
   color: grey;
+}
+
+.fixed-footer {
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.fixed-footer-par {
+  margin-right: 350px;
+}
+
+.fixed-footer-link {
+  margin-right: 20px;
 }
