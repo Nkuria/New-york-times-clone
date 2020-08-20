@@ -364,6 +364,7 @@ button:hover {
   border-top-color: gray;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 60px;
 }
 
 .footer-head {
@@ -453,11 +454,27 @@ button:hover {
 .fixed-footer {
   display: flex;
   align-items: center;
-  margin-left: 30%;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 1px;
+  width: 100%;
+  margin-top: 30px;
+  margin: auto;
+  height: 40px;
+
 }
 
 .fixed-footer-par {
-  margin-right: 350px;
+ margin-left: 30%;
+ margin-right: 25%;
+}
+
+.fixed-footer-link {
+  text-decoration: none;
+  color: black;
 }
 
 .fixed-footer-link {
