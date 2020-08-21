@@ -11,6 +11,10 @@ body {
   background-color: var(--color-fff);
 }
 
+a {
+  text-decoration: none;
+}
+
 .d-flex {
   display: flex;
 }
@@ -18,7 +22,6 @@ body {
 .flex-column{
   flex-direction: column;
 }
-
 
 .nav-bar {
   flex-direction: row;
@@ -48,7 +51,6 @@ body {
 
 .spacecosmos {
   margin-right: 40%;
-  text-decoration: none;
   color: #000;
 }
 
@@ -110,9 +112,9 @@ body {
 }
 
 .aside a {
-  text-decoration: none;
   color: #000;
 }
+
 
 .article-header {
   padding-top: 100px;
@@ -211,9 +213,6 @@ body {
   text-align: center;
 }
 
-.hr-1 a {
-  text-decoration: none;
-}
 
 .as-big {
   text-align: left;
@@ -329,7 +328,6 @@ body {
 }
 
 .grid2-right a {
-  text-decoration: none;
   color: #000;
   font-family: Poppins, sans-serif;
 }
@@ -347,7 +345,6 @@ body {
 }
 
 .footer-head a {
-  text-decoration: none;
   color: #6b7baf;
 }
 
@@ -362,7 +359,6 @@ body {
 }
 
 .footer-content a {
-  text-decoration: none;
   color: #000;
   padding-top: 10px;
   font-family: sans-serif;
@@ -426,7 +422,6 @@ body {
 }
 
 .fixed-footer-link {
-  text-decoration: none;
   color: #000;
   margin-right: 20px;
 }
@@ -443,6 +438,5 @@ button:hover {
 
 .grid1-right a,
 .footer-end a {
-  text-decoration: none;
   color: grey;
 }
