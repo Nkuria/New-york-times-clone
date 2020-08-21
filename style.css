@@ -6,6 +6,7 @@
 :root {
   --color-fff: #fff;
   --color-grey: grey;
+  --font-13px: 13px;
 }
 
 body {
@@ -20,13 +21,28 @@ a {
   display: flex;
 }
 
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
 
-.space-btn{
-  justify-content: space-between;
+.border-t-style {
+  border-top-style: solid;
+}
 
+.t-align-left {
+  text-align: left;
+}
+
+.space-btn {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-grid{
+  display: grid;
 }
 .nav-bar {
   flex-direction: row;
@@ -38,7 +54,6 @@ a {
   max-height: 40px;
   background-color: var(--color-fff);
   position: fixed;
-  width: 100%;
   border-bottom-style: solid;
   border-bottom-width: 0.3px;
   border-bottom-color: var(--color-grey);
@@ -67,7 +82,7 @@ a {
   height: 35px;
   border: none;
   border-radius: 3px;
-  color: var(--color-fff);;
+  color: var(--color-fff);
 }
 
 .nav-btn {
@@ -104,11 +119,9 @@ a {
   float: right;
   max-width: 200px;
   padding-left: 40px;
-  text-align: left;
 }
 
 .aside {
-  display: grid;
   grid-template-columns: 20% 80%;
   float: right;
   padding-bottom: 30px;
@@ -119,11 +132,9 @@ a {
   color: #000;
 }
 
-
 .article-header {
   padding-top: 100px;
   align-items: center;
-  width: 100%;
   float: left;
 }
 
@@ -154,7 +165,7 @@ a {
 
 #article-image h6 {
   font-weight: lighter;
-  font-size: 13px;
+  font-size: var(--font-13px);
 }
 
 #article-title {
@@ -164,7 +175,6 @@ a {
 }
 
 .description {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 250px;
   margin-top: 50px;
@@ -184,10 +194,6 @@ a {
   align-items: flex-end;
 }
 
-.article-container {
-  width: 100%;
-}
-
 .article {
   max-width: 550px;
   font-size: 1.25rem;
@@ -197,13 +203,11 @@ a {
   line-height: 2rem;
   float: left;
   width: 70%;
-  text-align: left;
   padding: 20px 40px 20px 30%;
 }
 
 .hr-1 {
   font-size: 15px;
-  border-top-style: solid;
   border-top-color: var(--color-grey);
   border-top-width: 2px;
   width: 250px;
@@ -216,9 +220,7 @@ a {
   text-align: center;
 }
 
-
 .as-big {
-  text-align: left;
   font-weight: 700;
   color: #000;
   font-size: 20px;
@@ -231,8 +233,7 @@ a {
 }
 
 .video-title {
-  font-size: 13px;
-  text-align: left;
+  font-size: var(--font-13px);
   color: #000;
   height: 20px;
   min-width: 700px;
@@ -241,8 +242,7 @@ a {
 
 .captions {
   padding-bottom: 70px;
-  font-size: 13px;
-  text-align: left;
+  font-size: var(--font-13px);
   color: #000;
   height: 20px;
   min-width: 700px;
@@ -252,7 +252,6 @@ a {
   font-size: 9px;
   color: var(--color-grey);
   font-weight: lighter;
-  text-align: left;
   height: 15px;
   padding-bottom: 50px;
 }
@@ -263,7 +262,7 @@ a {
 }
 
 #article-info {
-  font-size: 13px;
+  font-size: var(--font-13px);
   color: var(--color-grey);
   min-width: 800px;
 }
@@ -273,7 +272,7 @@ a {
   height: 35px;
   border: none;
   border-radius: 3px;
-  color: var(--color-fff);;
+  color: var(--color-fff);
   margin-top: 30px;
   width: 300px;
 }
@@ -288,7 +287,6 @@ a {
 }
 
 .gallery {
-  display: grid;
   grid-template-columns: 70% 30%;
   clear: both;
   grid-column-gap: 20px;
@@ -298,10 +296,8 @@ a {
 }
 
 .grid2-left {
-  display: grid;
   grid-template-rows: 1fr 6fr 6fr;
   grid-template-columns: 1fr 1fr 1fr;
-  border-top-style: solid;
   border-top-width: 1px;
   padding-top: 20px;
 }
@@ -322,7 +318,6 @@ a {
 }
 
 .grid2-right {
-  border-top-style: solid;
   border-top-width: 1px;
   padding-top: 20px;
 }
@@ -333,7 +328,6 @@ a {
 }
 
 .footer {
-  border-top-style: solid;
   border-top-color: gray;
   margin: 130px 5% 60px;
 }
@@ -348,7 +342,6 @@ a {
 }
 
 .footer-content {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 30px;
   padding-bottom: 30px;
@@ -361,7 +354,7 @@ a {
   color: #000;
   padding-top: 10px;
   font-family: sans-serif;
-  font-size: 13px;
+  font-size: var(--font-13px);
 }
 
 .col-1 {
@@ -374,7 +367,6 @@ a {
 
 .col-3 {
   grid-column: 3;
-  
 }
 
 .col-4 {
@@ -383,7 +375,6 @@ a {
 
 .col-5 {
   grid-column: 5;
- 
 }
 
 .col-6 {
@@ -405,11 +396,9 @@ a {
   align-items: center;
   position: fixed;
   bottom: 0;
-  background-color: var(--color-fff);;
-  border-top-style: solid;
+  background-color: var(--color-fff);
   border-top-color: #000;
   border-top-width: 1px;
-  width: 100%;
   margin-top: 30px;
   height: 40px;
 }
