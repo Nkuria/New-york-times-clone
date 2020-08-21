@@ -5,6 +5,7 @@
 
 :root {
   --color-fff: #fff;
+  --color-grey: grey;
 }
 
 body {
@@ -35,12 +36,12 @@ a {
   padding-bottom: 10px;
   height: 40px;
   max-height: 40px;
-  background-color: var(--color-fff);;
+  background-color: var(--color-fff);
   position: fixed;
   width: 100%;
   border-bottom-style: solid;
   border-bottom-width: 0.3px;
-  border-bottom-color: grey;
+  border-bottom-color: var(--color-grey);
 }
 
 .icons {
@@ -148,7 +149,7 @@ a {
 
 #article-image h4 {
   font-weight: lighter;
-  color: grey;
+  color: var(--color-grey);
 }
 
 #article-image h6 {
@@ -203,12 +204,12 @@ a {
 .hr-1 {
   font-size: 15px;
   border-top-style: solid;
-  border-top-color: grey;
+  border-top-color: var(--color-grey);
   border-top-width: 2px;
   width: 250px;
   margin-left: 30%;
   border-bottom-style: solid;
-  border-bottom-color: grey;
+  border-bottom-color: var(--color-grey);
   border-bottom-width: 2px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -249,7 +250,7 @@ a {
 
 .video-channel {
   font-size: 9px;
-  color: grey;
+  color: var(--color-grey);
   font-weight: lighter;
   text-align: left;
   height: 15px;
@@ -263,7 +264,7 @@ a {
 
 #article-info {
   font-size: 13px;
-  color: grey;
+  color: var(--color-grey);
   min-width: 800px;
 }
 
@@ -313,7 +314,7 @@ a {
 
 .img-description {
   text-align: right;
-  color: grey;
+  color: var(--color-grey);
 }
 
 .cell-1 {
@@ -352,7 +353,7 @@ a {
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom-style: solid;
-  border-bottom-color: grey;
+  border-bottom-color: var(--color-grey);
   border-bottom-width: 0.5px;
 }
 
@@ -388,7 +389,7 @@ a {
 .col-6 {
   grid-column: 6;
   border-left-style: solid;
-  border-left-color: grey;
+  border-left-color: var(--color-grey);
   border-left-width: 1px;
   padding-left: 10px;
 }
@@ -425,7 +426,7 @@ a {
 
 .comments-icons i,
 .cell-1 h5 {
-  color: grey;
+  color: var(--color-grey);
 }
 
 .icons i:hover,
@@ -435,5 +436,5 @@ button:hover {
 
 .grid1-right a,
 .footer-end a {
-  color: grey;
+  color: var(--color-grey);
 }
