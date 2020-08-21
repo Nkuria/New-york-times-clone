@@ -23,10 +23,13 @@ a {
   flex-direction: column;
 }
 
+.space-btn{
+  justify-content: space-between;
+
+}
 .nav-bar {
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
   padding-top: 10px;
   padding-right: 20px;
   padding-bottom: 10px;
@@ -177,7 +180,6 @@ a {
 }
 
 .grid1-right {
-  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -277,11 +279,9 @@ a {
 
 .comments-container {
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .comments-icons {
-  justify-content: space-between;
   align-items: flex-end;
   width: 150px;
 }
@@ -324,7 +324,6 @@ a {
   border-top-style: solid;
   border-top-width: 1px;
   padding-top: 20px;
-  justify-content: space-between;
 }
 
 .grid2-right a {
@@ -340,7 +339,6 @@ a {
 
 .footer-head {
   align-items: center;
-  justify-content: space-between;
   margin-top: 15px;
 }
 
@@ -397,7 +395,6 @@ a {
 
 .footer-end {
   flex-direction: row;
-  justify-content: space-between;
   margin-bottom: 30px;
   padding-left: 5%;
   padding-right: 5%;
