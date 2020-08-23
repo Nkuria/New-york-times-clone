@@ -11,6 +11,7 @@
 
 body {
   background-color: var(--color-fff);
+  overflow-x: hidden;
 }
 
 a {
@@ -142,7 +143,7 @@ a {
 .editor {
   width: 10%;
   margin-right: 5%;
-  margin-left: 50px;
+  margin-left: 15%;
   font-family: Poppins, sans-serif;
   margin-top: 25%;
 }
