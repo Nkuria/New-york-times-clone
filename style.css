@@ -21,6 +21,11 @@ a {
   display: flex;
 }
 
+.title {
+  position: absolute;
+  left: 45%;
+}
+
 .flex-column {
   flex-direction: column;
 }
@@ -104,8 +109,9 @@ a {
 }
 
 .spacecosmos {
-  margin-right: 40%;
   color: #000;
+  position: absolute;
+  left: 13%;
 }
 
 .icon1 {
