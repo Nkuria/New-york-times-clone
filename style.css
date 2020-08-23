@@ -14,6 +14,12 @@ body {
   overflow-x: hidden;
 }
 
+.grid2-right a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 11px;
+}
+
 a {
   text-decoration: none;
 }
