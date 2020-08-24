@@ -11,14 +11,28 @@
 
 body {
   background-color: var(--color-fff);
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
 }
 
+.grid2-right a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .d-flex {
   display: flex;
+}
+
+.title {
+  position: absolute;
+  left: 45%;
 }
 
 .flex-column {
@@ -104,8 +118,9 @@ a {
 }
 
 .spacecosmos {
-  margin-right: 40%;
   color: #000;
+  position: absolute;
+  left: 13%;
 }
 
 .icon1 {
@@ -136,8 +151,8 @@ a {
 .editor {
   width: 10%;
   margin-right: 5%;
-  margin-left: 50px;
-  font-family: Poppins, sans-serif;
+  margin-left: 15%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 25%;
 }
 
@@ -174,9 +189,25 @@ a {
   width: 100%;
 }
 
+.theory-grid img {
+  width: 200px;
+  height: auto;
+}
+
+.theory-2 img {
+  padding-bottom: 30px;
+}
+
+.theory-3 img {
+  padding-bottom: 10px;
+}
+
+.theory-6 img {
+  padding-bottom: 9px;
+}
+
 #article-image img {
   width: 100%;
-  max-width: 1100px;
   text-align: center;
 }
 
@@ -247,9 +278,33 @@ a {
   font-size: 20px;
 }
 
-.theory {
+.theory-grid {
   max-width: 800px;
   margin-right: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 20px;
+  margin-left: -150px;
+}
+
+.theory-title {
+  margin-right: 50%;
+  margin-top: 20px;
+  margin-left: -150px;
+  width: 150%;
+}
+
+.theory-grid div {
+  margin: 10px;
+  width: 200px;
+  height: 400px;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.theory-8 p {
+  margin-top: -15px;
 }
 
 .video-title {
@@ -328,11 +383,6 @@ a {
 
 .grid2-right {
   padding-top: 20px;
-}
-
-.grid2-right a {
-  color: #000;
-  font-family: Poppins, sans-serif;
 }
 
 .footer {
