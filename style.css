@@ -14,14 +14,16 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .grid2-right a {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 11px;
-}
-
-a {
-  text-decoration: none;
+  color: #000;
+  font-family: Poppins, sans-serif;
 }
 
 .d-flex {
@@ -187,6 +189,23 @@ a {
   width: 100%;
 }
 
+.theory-grid img {
+  width: 200px;
+  height: auto;
+}
+
+.theory-2 img {
+  padding-bottom: 30px;
+}
+
+.theory-3 img {
+  padding-bottom: 10px;
+}
+
+.theory-6 img {
+  padding-bottom: 9px;
+}
+
 #article-image img {
   width: 100%;
   max-width: 1100px;
@@ -271,32 +290,14 @@ a {
 }
 
 .theory-grid div {
-  width: 370px;
   margin: 10px;
   width: 200px;
   height: 550px;
   font-size: 14px;
 }
 
-.theory-2 img {
-  padding-bottom: 30px;
-}
-
-.theory-3 img {
-  padding-bottom: 10px;
-}
-
-.theory-6 img {
-  padding-bottom: 9px;
-}
-
 .theory-8 p {
   margin-top: -15px;
-}
-
-.theory-grid img {
-  width: 200px;
-  height: auto;
 }
 
 .video-title {
@@ -375,11 +376,6 @@ a {
 
 .grid2-right {
   padding-top: 20px;
-}
-
-.grid2-right a {
-  color: #000;
-  font-family: Poppins, sans-serif;
 }
 
 .footer {
