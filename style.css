@@ -260,9 +260,42 @@ a {
   font-size: 20px;
 }
 
-.theory {
+.theory-grid {
   max-width: 800px;
   margin-right: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 20px;
+}
+
+.theory-grid div {
+  width: 370px;
+  margin: 10px;
+  width: 200px;
+  height: 550px;
+  font-size: 14px;
+}
+
+.theory-2 img {
+  padding-bottom: 30px;
+}
+
+.theory-3 img {
+  padding-bottom: 10px;
+}
+
+.theory-6 img {
+  padding-bottom: 9px;
+}
+
+.theory-8 p {
+  margin-top: -15px;
+}
+
+.theory-grid img {
+  width: 200px;
+  height: auto;
 }
 
 .video-title {
